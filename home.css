@@ -1,0 +1,116 @@
+/* Basic styling for the navbar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #49dbeebd;
+    color: rgb(0, 0, 0);
+    /* padding: 20px 0; */
+    position: fixed; 
+     width: 100%;
+    top: 0;
+    left: 0; 
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+} */
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ddd;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info p {
+    margin: 2px 0;
+}
+
+.footer-info a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-social a:hover {
+    color: #f1c40f;
+}
+
+.klo{
+    background-color: aqua;
+}
+
+.kol1{
+    background-color: rgb(187, 255, 0);
+}
+
+.p1{
+    background-color: rgb(0, 255, 255);
+}
+
+.h1{
+    background-color: rgb(236, 12, 12);
+}
+ .bdy{ background-color: rgb(243, 105, 181);
+
+ }
+
+ .pol{
+    background-color: chartreuse;
+ }
